@@ -5,9 +5,9 @@ import java.util.concurrent.CountDownLatch;
 /**
  * @author ZhangShenao
  * @date 2023/7/13 2:28 PM
- * Description 打破原子性
+ * Description 并发编程的问题来源一：原子性问题
  */
-public class BreakAtomicity {
+public class AtomicityProblem {
     private static int count = 0;   //共享变量无法保证原子性
 
     public static void main(String[] args) throws InterruptedException {
