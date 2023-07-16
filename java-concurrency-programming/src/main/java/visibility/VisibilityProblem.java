@@ -3,7 +3,7 @@ package visibility;
 /**
  * @author ZhangShenao
  * @date 2023/7/16 3:33 PM
- * Description 并发编程的问题来源二：可见性问题
+ * Description 并发编程的问题根源二：可见性问题
  */
 public class VisibilityProblem {
     private static boolean flag = true;
