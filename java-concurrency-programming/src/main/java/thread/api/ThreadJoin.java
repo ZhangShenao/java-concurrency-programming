@@ -1,6 +1,5 @@
 package thread.api;
 
-import java.util.concurrent.TimeUnit;
 
 /**
  * @author ZhangShenao
